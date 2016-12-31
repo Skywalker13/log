@@ -1,11 +1,13 @@
 baseurl = "http://log.schroetersa.ch/"
 languageCode = "en-us"
 title = "Skywalker13"
+comments = true
 
 [params]
   Subtitle = "Diary of an ex-GeeXboX developer..."
   GithubID = "Skywalker13"
   TwitterID = "schroeterm"
+  DisqusShortname = "schroeter"
   Summary = false  # takes true or false
   Content = false  # takes true or false
   # if both are set to true, summary is shown.
