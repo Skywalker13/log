@@ -1,7 +1,6 @@
 baseurl = "http://log.schroetersa.ch/"
 languageCode = "en-us"
 title = "Skywalker13"
-comments = true
 
 [params]
   Subtitle = "Diary of an ex-GeeXboX developer..."
