@@ -6,7 +6,6 @@ title = "Skywalker13"
   Subtitle = "Diary of an ex-GeeXboX developer..."
   GithubID = "Skywalker13"
   TwitterID = "schroeterm"
-  DisqusShortname = "schroeter"
   Summary = false  # takes true or false
   Content = false  # takes true or false
   # if both are set to true, summary is shown.
