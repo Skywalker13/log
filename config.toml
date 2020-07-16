@@ -1,12 +1,39 @@
 baseurl = "http://log.schroetersa.ch/"
 languageCode = "en-us"
 title = "Skywalker13"
+theme = "HugoTeX"
+paginate = 4
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+
+pygmentsstyle = "algol"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[author]
+  name = "Mathieu Schroeter"
+  abstract = "Diary of an ex-GeeXboX developer..."
 
 [params]
+  Mode = "auto"
   Subtitle = "Diary of an ex-GeeXboX developer..."
   GithubID = "Skywalker13"
-  TwitterID = "schroeterm"
-  Summary = false  # takes true or false
-  Content = false  # takes true or false
-  # if both are set to true, summary is shown.
+  Summary = false
+  Content = false
   FooterMsg = "<div style='text-align: right'><img src='http://www.gravatar.com/avatar/d4be2af9a8c02ddaa79d2de987ad91c4'/></div><div style='text-align: right; font-size: 10pt'>Copyright © 2008-2020, Mathieu Schroeter</div>"
+
+[[params.social]]
+  name = "GitHub"
+  icon = "github"
+  url = "https://github.com/Skywalker13"
+
+[[menu.footer]]
+  name = "GitHub"
+  url = "https://github.com/Skywalker13"
+  weight = 1
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
