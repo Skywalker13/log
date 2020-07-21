@@ -22,7 +22,7 @@ pygmentscodefencesguesssyntax = true
 
 [[menu.main]]
   name = "/usr/posts"
-  url = "/post"
+  url = "/posts"
   weight = 2
 
 [[menu.main]]
