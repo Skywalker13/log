@@ -1,5 +1,5 @@
 +++
-date = "1985-02-09T00:00:00+00:00"
+date = "1985-02-09"
 draft = false
 title = "About me"
 +++
