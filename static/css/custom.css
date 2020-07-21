@@ -1,0 +1,54 @@
+@import url("katex.min.css");
+
+body {
+  font-size: 90%;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 0.9rem;
+}
+
+.header nav ul.flat li {
+  text-transform: none;
+}
+
+pre,
+code {
+  font-size: 88%;
+  color: #ccc;
+}
+
+blockquote {
+  font-size: 110%;
+}
+
+img {
+  background-color: #ccc;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 10px #333;
+}
+
+.description p {
+  display: inline;
+}

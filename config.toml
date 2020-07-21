@@ -1,39 +1,49 @@
 baseurl = "http://log.schroetersa.ch/"
 languageCode = "en-us"
 title = "Skywalker13"
-theme = "HugoTeX"
-paginate = 4
-defaultContentLanguage = "en"
-enableInlineShortcodes = true
-footnoteReturnLinkContents = "^"
+theme = "ezhil"
+paginate = 6
+copyright = "Mathieu Schroeter"
 
-pygmentsstyle = "algol"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-[author]
-  name = "Mathieu Schroeter"
-  abstract = "Diary of an ex-GeeXboX developer..."
-
 [params]
-  Mode = "auto"
+  customCSS = "css/custom.css"
+  customJS = ["js/katex.min.js", "js/auto-render.min.js", "js/custom.js"]
+  Mode = "dark"
   Subtitle = "Diary of an ex-GeeXboX developer..."
-  GithubID = "Skywalker13"
-  Summary = false
-  Content = false
-  FooterMsg = "<div style='text-align: right'><img src='http://www.gravatar.com/avatar/d4be2af9a8c02ddaa79d2de987ad91c4'/></div><div style='text-align: right; font-size: 10pt'>Copyright © 2008-2020, Mathieu Schroeter</div>"
+  featherIconsCDN = false
+
+[[menu.main]]
+  name = "/home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "/usr/posts"
+  url = "/post"
+  weight = 2
+
+[[menu.main]]
+  name = "/usr/about"
+  url = "/about"
+  weight = 3
+
+[[menu.main]]
+  name = "/var/tags"
+  url = "/tags"
+  weight = 4
 
 [[params.social]]
   name = "GitHub"
   icon = "github"
   url = "https://github.com/Skywalker13"
 
-[[menu.footer]]
-  name = "GitHub"
-  url = "https://github.com/Skywalker13"
-  weight = 1
+[[params.social]]
+  name = "RSS"
+  icon = "rss"
+  url = "/index.xml"
 
 [taxonomies]
-  category = "categories"
-  tag = "tags"
-  series = "series"
+   tag = "tags"
