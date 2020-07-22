@@ -115,6 +115,8 @@ code {
 }
 
 blockquote {
+  border-left: 2px solid;
+  padding-left: 15px;
   font-size: 115%;
   font-family: "Ubuntu Light";
 }
