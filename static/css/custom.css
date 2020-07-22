@@ -36,6 +36,24 @@
   src: url(fonts/UbuntuMono-RI.ttf) format("truetype");
 }
 
+html {
+  --scrollbarBG: black;
+  --thumbBG: #ff7979;
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG);
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
+}
+
 body {
   font-family: "Ubuntu";
   font-size: 90%;
