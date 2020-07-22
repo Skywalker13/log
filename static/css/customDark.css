@@ -1,0 +1,17 @@
+table th,
+table td {
+  padding: 8px 15px;
+  font-size: 90%;
+}
+
+table th {
+  font-variant-caps: small-caps;
+}
+
+table th:first-child {
+  width: 25%;
+}
+
+table {
+  width: 100%;
+}
