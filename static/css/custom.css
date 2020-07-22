@@ -49,6 +49,10 @@ body {
   font-family: "Ubuntu Mono";
 }
 
+.recent-posts .posts .post {
+  margin-bottom: 15px;
+}
+
 h1 {
   font-size: 2rem;
 }
