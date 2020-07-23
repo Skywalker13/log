@@ -117,13 +117,14 @@ code {
 blockquote {
   border-left: 2px solid;
   padding-left: 15px;
-  font-size: 115%;
+  font-size: 112%;
   font-family: "Ubuntu Light";
 }
 
 blockquote code {
   background-color: #333;
 }
+li code,
 p code {
   background-color: #333;
   border-radius: 2px;
