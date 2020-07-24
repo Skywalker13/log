@@ -15,3 +15,7 @@ table th:first-child {
 table {
   width: 100%;
 }
+
+blockquote {
+  border-color: #ff7979;
+}
