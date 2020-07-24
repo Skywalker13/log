@@ -4,13 +4,13 @@
 Start the local hugo server.
 
 ```sh
-./run.sh
+./run
 ```
 
 Populate the `public/` output directory.
 
 ```sh
-./build.sh
+./build
 ```
 
 ## Migration
