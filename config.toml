@@ -8,6 +8,9 @@ copyright = "🇨🇭 Copyright © 2008-2022, Mathieu Schroeter"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
+[markup.goldmark.renderer]
+  unsafe = true
+
 [params]
   customCSS = "css/custom.css"
   customDarkCSS = "css/customDark.css"
