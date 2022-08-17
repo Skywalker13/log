@@ -2,7 +2,7 @@ baseurl = "http://log.schroetersa.ch/"
 languageCode = "en-us"
 title = "Skywalker13"
 theme = "ezhil"
-paginate = 6
+paginate = 8
 copyright = "🇨🇭 Copyright © 2008-2022, Mathieu Schroeter"
 
 pygmentscodefences = true
