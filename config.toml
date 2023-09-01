@@ -16,7 +16,7 @@ pygmentscodefencesguesssyntax = true
   customDarkCSS = "css/customDark.css"
   customJS = ["js/katex.min.js", "js/auto-render.min.js", "js/custom.js"]
   Mode = "dark"
-  Subtitle = "Diary of an ex-GeeXboX developer..."
+  Subtitle = "Diary of an ex-GeeXboX developer…"
   featherIconsCDN = false
 
 [[menu.main]]
