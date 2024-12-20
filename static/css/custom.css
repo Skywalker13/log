@@ -108,6 +108,10 @@ h6 {
   text-transform: none;
 }
 
+.post ul li {
+  margin-bottom: 0;
+}
+
 pre,
 code {
   font-family: "Ubuntu Mono";
