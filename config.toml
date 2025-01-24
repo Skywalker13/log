@@ -5,8 +5,10 @@ theme = "ezhil"
 paginate = 8
 copyright = "🇨🇭 Copyright © 2008-2025, Mathieu Schroeter"
 
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
+pygmentsStyle = "dracula"
+pygmentsCodeFences = true
+pygmentsUseClasses = false
+pygmentsCodeFencesGuessSyntax = true
 
 [markup.goldmark.renderer]
   unsafe = true
