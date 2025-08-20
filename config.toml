@@ -1,4 +1,4 @@
-baseurl = "http://log.schroetersa.ch/"
+baseurl = "//log.schroetersa.ch/"
 languageCode = "en-us"
 title = "Skywalker13"
 theme = "ezhil"
