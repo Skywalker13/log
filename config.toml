@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Skywalker13"
 theme = "ezhil"
 paginate = 8
-copyright = "🇨🇭 Copyright © 2008-2025, Mathieu Schroeter"
+copyright = "🇨🇭 Copyright © 2008-2026, Mathieu Schroeter"
 
 pygmentsStyle = "dracula"
 pygmentsCodeFences = true
@@ -32,14 +32,19 @@ pygmentsCodeFencesGuessSyntax = true
   weight = 2
 
 [[menu.main]]
+  name = "/usr/shame"
+  url = "/hall-of-shame"
+  weight = 3
+
+[[menu.main]]
   name = "/usr/about"
   url = "/about"
-  weight = 3
+  weight = 4
 
 [[menu.main]]
   name = "/var/tags"
   url = "/tags"
-  weight = 4
+  weight = 5
 
 [[params.social]]
   name = "GitHub"
