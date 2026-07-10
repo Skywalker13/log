@@ -19,7 +19,7 @@ Multiple problems like...
 - [Postgres rewritten in Rust][1]
 
   > [Hacker News][2] _2026.07.09_  
-  > Original Postgre use [license][7] and the rewrite uses AGPL-3.0 💩
+  > Original Postgre use this [license][7] and the rewrite uses AGPL-3.0 💩
 
 - [Rewriting Bun in Rust][3]
 
